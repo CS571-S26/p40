@@ -1,7 +1,7 @@
 import { Button, Col, Container, Row } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
 import StoreSummaryCard from '../components/StoreSummaryCard'
-import heroImg from '../assets/hero.png'   // ✅ THIS is the fix
+import ShopWiseLogo from '../assets/ShopWiseLogo.png'   // ✅ THIS is the fix
 
 function HomePage() {
   return (
@@ -30,7 +30,7 @@ function HomePage() {
 
           <Col md={5} className="mt-4 mt-md-0 text-center">
             <img
-              src={heroImg}
+              src={ShopWiseLogo}
               alt="Groceries"
               className="img-fluid rounded shadow-lg"
             />
