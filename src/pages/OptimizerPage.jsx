@@ -88,7 +88,12 @@ function OptimizerPage() {
         ))}
       </Form>
 
-      <Button variant="success" className="mb-4" onClick={handleOptimize}>
+      <Button
+        variant="success"
+        size="lg"
+        className="mb-4"
+        onClick={handleOptimize}
+      >
         Optimize My List
       </Button>
 
@@ -117,14 +122,15 @@ function OptimizerPage() {
             </tbody>
           </Table>
 
-          <Alert variant="success" className="mb-3">
-            Cheapest mixed-store total: <strong>${mixedTotal.toFixed(2)}</strong>
+          <Alert variant="success" className="mb-3 text-center">
+            💰 Cheapest mixed-store total: <strong>${mixedTotal.toFixed(2)}</strong>
           </Alert>
 
           {bestStore && (
-            <Alert variant="primary">
-              Cheapest single-store total: <strong>{bestStore.store}</strong> at{' '}
-              <strong>${bestStore.total.toFixed(2)}</strong>
+            <Alert variant="primary" className="text-center">
+              🏪 Best single store: <strong>{bestStore.store}</strong>  
+              <br />
+              Total: <strong>${bestStore.total.toFixed(2)}</strong>
             </Alert>
           )}
         </>

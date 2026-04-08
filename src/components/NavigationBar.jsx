@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 //this component shows the top navigation bar
 function NavigationBar() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar bg="dark" variant="dark" expand="lg" className="shadow-sm">
       <Container>
 
         {/* brand name (click goes home) */}

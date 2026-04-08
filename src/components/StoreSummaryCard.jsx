@@ -5,14 +5,11 @@ function StoreSummaryCard({ title, text }) {
   return (
     <Col md={4} className="mb-4">
       
-      <Card className="h-100 shadow-sm">
+      <Card className="h-100 shadow-sm border-0 text-center p-3">
         
         <Card.Body>
-          {/* card title */}
-          <Card.Title>{title}</Card.Title>
-
-          {/* card text */}
-          <Card.Text>{text}</Card.Text>
+            <Card.Title className="fw-semibold mb-2">{title}</Card.Title>
+            <Card.Text className="text-muted">{text}</Card.Text>
         </Card.Body>
 
       </Card>

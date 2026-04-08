@@ -6,9 +6,9 @@ function PriceComparisonTable({ itemData }) {
   //if no item selected, show message
   if (!itemData) {
     return (
-      <Alert variant="secondary">
-        Select an item to see price comparison.
-      </Alert>
+        <Alert variant="info" className="text-center">
+            👆 Select an item to compare prices
+        </Alert>
     )
   }
 
