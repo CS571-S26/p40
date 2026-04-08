@@ -4,9 +4,9 @@ const groceryData = [
     {
       name: "milk",
       prices: {
-        Walmart: 3.5,
+        Walmart: 3.2,
         Target: 3.8,
-        Costco: 3.2,
+        Costco: 3.5,
       },
     },
     {
@@ -20,9 +20,9 @@ const groceryData = [
     {
       name: "bread",
       prices: {
-        Walmart: 2.5,
+        Walmart: 2.3,
         Target: 2.9,
-        Costco: 2.3,
+        Costco: 2.5,
       },
     },
     {
@@ -44,9 +44,9 @@ const groceryData = [
     {
       name: "chicken",
       prices: {
-        Walmart: 8.5,
+        Walmart: 7.8,
         Target: 9.0,
-        Costco: 7.8,
+        Costco: 8.5,
       },
     },
     {
