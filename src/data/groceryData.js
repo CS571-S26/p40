@@ -1,63 +1,29 @@
-//grocery dataset used across the app
-
 const groceryData = [
-    {
-      name: "milk",
-      prices: {
-        Walmart: 3.2,
-        Target: 3.8,
-        Costco: 3.5,
-      },
-    },
-    {
-      name: "eggs",
-      prices: {
-        Walmart: 2.9,
-        Target: 3.1,
-        Costco: 2.7,
-      },
-    },
-    {
-      name: "bread",
-      prices: {
-        Walmart: 2.3,
-        Target: 2.9,
-        Costco: 2.5,
-      },
-    },
-    {
-      name: "rice",
-      prices: {
-        Walmart: 6.5,
-        Target: 6.8,
-        Costco: 5.9,
-      },
-    },
-    {
-      name: "bananas",
-      prices: {
-        Walmart: 1.2,
-        Target: 1.4,
-        Costco: 1.1,
-      },
-    },
-    {
-      name: "chicken",
-      prices: {
-        Walmart: 7.8,
-        Target: 9.0,
-        Costco: 8.5,
-      },
-    },
-    {
-      name: "cereal",
-      prices: {
-        Walmart: 4.5,
-        Target: 4.9,
-        Costco: 4.2,
-      },
-    },
-  ]
-  
-  //exporting the dataset so other files can use it
-  export default groceryData
+  { name: "milk",          category: "dairy",     prices: { Walmart: 3.20, Target: 3.80,  Costco: 3.50 } },
+  { name: "eggs",          category: "dairy",     prices: { Walmart: 2.90, Target: 3.10,  Costco: 2.70 } },
+  { name: "butter",        category: "dairy",     prices: { Walmart: 4.48, Target: 4.99,  Costco: 3.89 } },
+  { name: "cheese",        category: "dairy",     prices: { Walmart: 3.98, Target: 4.49,  Costco: 3.29 } },
+  { name: "yogurt",        category: "dairy",     prices: { Walmart: 1.18, Target: 1.49,  Costco: 0.99 } },
+  { name: "bananas",       category: "produce",   prices: { Walmart: 1.20, Target: 1.40,  Costco: 1.10 } },
+  { name: "apples",        category: "produce",   prices: { Walmart: 2.48, Target: 2.99,  Costco: 2.19 } },
+  { name: "spinach",       category: "produce",   prices: { Walmart: 2.98, Target: 3.49,  Costco: 2.49 } },
+  { name: "broccoli",      category: "produce",   prices: { Walmart: 1.28, Target: 1.69,  Costco: 1.09 } },
+  { name: "avocados",      category: "produce",   prices: { Walmart: 1.00, Target: 1.29,  Costco: 0.79 } },
+  { name: "chicken",       category: "meat",      prices: { Walmart: 7.80, Target: 9.00,  Costco: 8.50 } },
+  { name: "ground beef",   category: "meat",      prices: { Walmart: 5.98, Target: 6.49,  Costco: 5.29 } },
+  { name: "salmon",        category: "meat",      prices: { Walmart: 9.98, Target: 11.49, Costco: 8.49 } },
+  { name: "bread",         category: "pantry",    prices: { Walmart: 2.30, Target: 2.90,  Costco: 2.50 } },
+  { name: "rice",          category: "pantry",    prices: { Walmart: 6.50, Target: 6.80,  Costco: 5.90 } },
+  { name: "pasta",         category: "pantry",    prices: { Walmart: 1.28, Target: 1.59,  Costco: 0.99 } },
+  { name: "cereal",        category: "pantry",    prices: { Walmart: 4.50, Target: 4.90,  Costco: 4.20 } },
+  { name: "oats",          category: "pantry",    prices: { Walmart: 3.48, Target: 3.99,  Costco: 2.89 } },
+  { name: "peanut butter", category: "pantry",    prices: { Walmart: 3.98, Target: 4.49,  Costco: 3.29 } },
+  { name: "olive oil",     category: "pantry",    prices: { Walmart: 7.98, Target: 8.99,  Costco: 6.49 } },
+  { name: "coffee",        category: "beverages", prices: { Walmart: 8.98, Target: 9.99,  Costco: 7.49 } },
+  { name: "orange juice",  category: "beverages", prices: { Walmart: 3.98, Target: 4.49,  Costco: 3.29 } },
+  { name: "chips",         category: "snacks",    prices: { Walmart: 3.48, Target: 3.99,  Costco: 2.89 } },
+  { name: "frozen pizza",  category: "frozen",    prices: { Walmart: 4.98, Target: 5.49,  Costco: 4.29 } },
+  { name: "ice cream",     category: "frozen",    prices: { Walmart: 3.98, Target: 4.49,  Costco: 3.49 } },
+]
+
+export default groceryData
