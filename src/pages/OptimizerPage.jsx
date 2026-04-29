@@ -80,10 +80,15 @@ function OptimizerPage() {
       <Row className="mb-4">
         {filteredItems.map((item) => (
           <Col xs={6} md={4} key={item.name} className="mb-3">
-            <Form.Label className="mb-1 text-capitalize fw-semibold">
+            <Form.Label
+              htmlFor={`qty-${item.name.replaceAll(' ', '-')}`}
+              className="mb-1 text-capitalize fw-semibold"
+            >
               {item.name}
             </Form.Label>
+
             <Form.Control
+              id={`qty-${item.name.replaceAll(' ', '-')}`}
               type="number"
               min={0}
               value={quantities[item.name] || ''}

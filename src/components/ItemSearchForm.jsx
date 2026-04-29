@@ -6,10 +6,11 @@ function ItemSearchForm({ selectedItem, setSelectedItem, items }) {
     <Form className="mb-4">
       
       {/* label */}
-      <Form.Label>Select an item</Form.Label>
+      <Form.Label htmlFor="item-select">Select an item</Form.Label>
 
       {/* dropdown */}
       <Form.Select
+        id="item-select"
         value={selectedItem}
         onChange={(e) => setSelectedItem(e.target.value)}
       >
